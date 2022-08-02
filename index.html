@@ -4,9 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Code Quiz</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Code-Quiz</title>
+  <link rel="stylesheet" href="./Assets/css/style.css">
   <script src="assets/js/script.js"></script>
 </head>
 
@@ -20,18 +19,18 @@
 
 <div id="positionWrapper">
   <section id="intro">
-    <h1>Coding Quiz Challenge</h1>
-    <p>Try to answer the following code-related questions within the time limit.
-      Keep in mind that incorrect answers will penalize your score/time by ten seconds.
+    <h1>Coding Quiz &#129299; </h1>
+    <p>Answer the following questions within the time limit. </p>           
+    <p>Wrong answers will be be penalized by a 5 second deduction from timer.</p>
     </p>
-    <button>Start Quiz</button>
+    <button>Start</button>
 
   </section>
 
-  <section id="quizHolder" class="hide">
+  <section id="quizSection" class="hide">
     <p id="title"></p>
-    <!-- Buttons to accept question values-->
-    <button></button>
+<!-- The Button Section -->
+<button></button>
     <button></button>
     <button></button>
     <button></button>
@@ -41,22 +40,23 @@
   </section>
 
   <section id="finish" class="hide">
-    <h1>All Done</h1>
+    <h1>You have completed the quiz!</h1>
     <p>Your final score is&nbsp;<span id="score"></span></p>
     <div id="records">
-      <p>Enter initials: </p><input id="initials" type="text"> <button>Submit</button>
+      <p>Please Enter Your Initials: </p><input id="initials" type="text"> <button>Submit</button>
     </div>
-    <div id="errorIndicator" class="invisible">
+    <div id="errorAlert" class="invisible">
       <p>&nbsp;</p>
     </div>
   </section>
 
+    <!-- High Score Values-->
   <section id="highScores" class="hide">
     <h1>High Scores</h1>
     <div>
 
     </div>
-    <button id="reset">Go Back</button> <button id="clearScores">Clear Highscores</button>
+    <button id="reset">Go Back</button> <button id="clearScores">Clear High-Scores</button>
   </section>
 </div>
  
