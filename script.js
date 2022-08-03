@@ -31,8 +31,8 @@ var questions = [
   document.addEventListener('DOMContentLoaded', (event) => {
 
 // Timer Variables 
-	const initialTime = 45;
-	var time = 45;
+	const initialTime = 60;
+	var time = 60;
 	var score = 0;
 	var qCount = 0;
 	var timeset;
@@ -135,7 +135,7 @@ var questions = [
 		check.addEventListener('click', function (event) {
 			// If question is answered correctly!
 			if (this.innerHTML.substring(3, this.length) === questions[qCount].answer) {
-				score = score + 5;
+				score = score + ;
 				qCount = qCount + 1;
 				quizUpdate("Great Job 👏");
 			}else{

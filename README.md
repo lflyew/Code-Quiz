@@ -2,8 +2,15 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+As a coding boot camp student, I have created a timed quiz using JavaScript. 
 
+The Quiz will be able to:
+
+    -- Store High Scores
+    -- The 60 seconds timer will begin when the start quiz button is clicked
+    -- User will know if they got question right or wrong
+    -- If user guesses incorrectly, time will be deducted from timer (10 secs)
+    -- User will be able to enter initials and view high scores
 
 ## Table of Contents 
 
