@@ -135,7 +135,7 @@ var questions = [
 		check.addEventListener('click', function (event) {
 			// If question is answered correctly!
 			if (this.innerHTML.substring(3, this.length) === questions[qCount].answer) {
-				score = score + ;
+				score = score + 5;
 				qCount = qCount + 1;
 				quizUpdate("Great Job 👏");
 			}else{
