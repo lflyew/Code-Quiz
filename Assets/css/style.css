@@ -73,7 +73,7 @@ html,body{
     border: none;
     padding:15px;
     border-radius: 10px;
-    cursor:grab;
+    cursor:pointer;
   }
   
   #intro button:hover{
@@ -88,7 +88,7 @@ html,body{
   
   
   #quizSection button{
-    background-color:#41275e;
+    background-color:green;
     border-radius:5px;
     color:white;
     margin: 3px 0;
@@ -100,19 +100,19 @@ html,body{
   }
   
   #quizSection button:hover{
-    background-color: #613a8d;
+    background-color: plum;
   }
 
    /* Score Styling*/
 
-  #scoreIndicator p, #errorAlert p{
+  #scoreIndicator p, {
     margin:0;
     margin-top:10px;
     }
 
-  #scoreIndicator, #errorAlert{
+  #scoreIndicator {
     border-top: 1px solid #999;
-    color: #41275e;
+    color: purple;
     font-size: 1.3em;
     margin: 0;
     font-style: italic;
